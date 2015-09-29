@@ -11,16 +11,23 @@ In Machine Learning
 1. What are at least 3 names for the Y values 
 2. What are at least 3 names for the X values
 
+Y
+- Response variable
+- Output value
+- Estimate value
 
+X
+- Predictor variable
+- Input value
+- Training data
 
 # Question 2:
 
 It is often useful to plot a scatter plot of your data with each X against the Y. 
 What can you understand from these plots
 
-1. 
-2.
-
+1. Depending on the data and model we choose, it is easily and directly to see if it is the model we made depending on the shape of these distributed plots.
+2. According to the plots, we can group and virtualize the results we want with the values directly from X & Y, and get the trend for example.
 
 
 # Question 3: 
@@ -50,11 +57,16 @@ Consider the **summary** of a lm model:
 What is/are:
 
 1. The Y: 
-2. The X's:
+ - Estimate, Std. Error, t value, Pr(>|t|) 
+2. The X's: 
+ - data Sepal.Width, Petal.Length, Petal.Width from iris
 3. The full (model) formula for the model: 
+ - formula = Sepal.Width + Petal.Length + Petal.Width
 If all units are the same (they are), which variable has the 
 4a.largest absolute impact on Y.
+ - Petal.Length
 4b. smallest absolute impact on Y.
+ - Petal.Width
 
 
   
@@ -62,7 +74,7 @@ If all units are the same (they are), which variable has the
 # Question 4: 
 
 Name (the) three things are that all ML algorithm share in common?
-1. 
-2.
-3.
+1. A method for evaluating how well the algorithm performs (ERRORS)
+2. A restricted class of function (MODEL)
+3. A process for proceeding through the restricted class of functions to identify the functions (SEARCH/OPTIMIZATION)
 
